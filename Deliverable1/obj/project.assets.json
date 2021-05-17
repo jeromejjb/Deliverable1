@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Jerome\\source\\repos\\Deliverable1\\Deliverable1\\Deliverable1.csproj",
+      "projectUniqueName": "C:\\Users\\Jerome\\Documents\\prework\\Deliverable1\\Deliverable1\\Deliverable1.csproj",
       "projectName": "Deliverable1",
-      "projectPath": "C:\\Users\\Jerome\\source\\repos\\Deliverable1\\Deliverable1\\Deliverable1.csproj",
+      "projectPath": "C:\\Users\\Jerome\\Documents\\prework\\Deliverable1\\Deliverable1\\Deliverable1.csproj",
       "packagesPath": "C:\\Users\\Jerome\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Jerome\\source\\repos\\Deliverable1\\Deliverable1\\obj\\",
+      "outputPath": "C:\\Users\\Jerome\\Documents\\prework\\Deliverable1\\Deliverable1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Jerome\\AppData\\Roaming\\NuGet\\NuGet.Config",
