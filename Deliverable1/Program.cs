@@ -10,35 +10,46 @@ namespace Deliverable1
 
 
             string measurementType;
-            int milhip;
-            int imperial;
+            int inch;
+            int fidgetspinners;
+            int foot;
+            int meme;
             string userAnswer = "yes";
 
             while (userAnswer == "yes")
-            {  
+            {
                 // asking for a users measurement input
                 Console.Write("Please enter a measurement type ");
                 measurementType = Console.ReadLine();
 
                 // asking user for an amount of measurement
                 Console.Write("Enter an amount ");
-               
-                if (measurementType == "milhip")
+
+                if (measurementType == "inch")
                 {
-                    // convert measurement if in milhip to Figet spinners and Memes
-                    milhip = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("{0} Figet Spinners", milhip * 3.5);
-                    Console.WriteLine("{0} Memes", milhip * 5);   
+
+                    fidgetspinners = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("That converts to {0} fidget spinners", fidgetspinners * 3.5);
                 }
-                else
+               else if (measurementType == "fidget spinners")
                 {
-                    // convert measurement if in imperial to inches and feet
-                    imperial = Convert.ToInt32(Console.ReadLine());
-                    Console.WriteLine("{0} inches", imperial * 1);
-                    Console.WriteLine("{0} feet", imperial * 1);
+                    inch = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("That converts to {0} inches", inch * 1);
+                }
+                else if (measurementType == "foot")
+                {
+                    meme = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("That converts to {0} memes", meme *  5);
+                }
+                else if (measurementType == "meme")
+                {
+                    foot = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine("That converts to {0} feet", foot * 5);
                 }
                 Console.Write("would you like to do another calculation? ");
-                userAnswer = Console.ReadLine();  
+                userAnswer = Console.ReadLine();
+             
+
             }
         }
     }
